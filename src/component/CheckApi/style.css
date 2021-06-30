@@ -1,0 +1,56 @@
+.heding{
+    background:#dedede;
+    margin-bottom: 15px;
+}
+.icon{
+    padding-right: 40px;
+}
+.iconwright {
+    float: right;
+    cursor: pointer;
+}
+.iconwright:hover {
+    color: rgb(233, 166, 21);
+   
+}
+.subcat {
+    text-align: center;
+
+    background:red;
+}
+.hide{
+}
+
+.fromblock{
+    display:block;
+    background:rgb(247, 247, 247);
+    margin-bottom: 10px;
+}
+.fromblock:hover{
+    background:rgb(255, 212, 212);
+    cursor: pointer;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(./plus.png);
+    transform: rotate(
+-180deg
+);
+}
+
+.subtotalSection {
+    background:#e0e0e0;
+    margin-bottom: 20px;
+}
+.subtotalSection h4{
+}
+.flostright{
+    float: right;
+    padding:9px
+}
+
+.checkboxeditright {
+    position: fixed;
+    top: 0;
+    right: 45%;
+    float:right;
+}
